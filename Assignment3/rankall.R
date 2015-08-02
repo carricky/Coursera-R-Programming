@@ -15,7 +15,7 @@ rankall<-function(outcome,num="best"){
   for(i in id){  
     
     ff<-df[(df[,2]==i),]
-    ff<-ff[order(as.numeric(as.character(ff[,3])),ff[,1]),]    ##错误，不知原�?
+    ff<-ff[order(as.numeric(as.character(ff[,3])),ff[,1]),]    ##é”™è¯¯ï¼Œä¸çŸ¥åŽŸå›?
    
     
     if(num=="best"){
