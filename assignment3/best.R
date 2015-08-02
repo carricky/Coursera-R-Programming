@@ -9,6 +9,6 @@ best<-function(state,outcome){
 	df<-df[with(df,df[,2]==state),]   
 	df = df[!(df[,3]=="Not Available"),]
       
-	df<-df[order(as.numeric(as.character(df[,3])),df[,1]),]  ##没有按照首字母大小排�?
+	df<-df[order(as.numeric(as.character(df[,3])),df[,1]),]  ##瘝⊥��擐�瘥之撠��?
 	print(df[1,1])
 }     
